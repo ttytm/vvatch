@@ -10,7 +10,7 @@ mut:
 fn watch_cb(watch_id w.WatchID, action w.Action, root_path string, file_path string, old_file_path string, mut app App) {
 	match action {
 		.create { println('created `${file_path}`') }
-		.delete { println('delated `${file_path}`') }
+		.delete { println('deleted `${file_path}`') }
 		.modify { println('modified `${file_path}`') }
 		.move { println('moved `${old_file_path}` to `${file_path}`') }
 	}
