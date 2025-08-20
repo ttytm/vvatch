@@ -14,9 +14,9 @@ pub enum WatchFlag {
 	follow_symlinks = C.DMON_WATCHFLAGS_FOLLOW_SYMLINKS
 }
 
-type WatchFlags = WatchFlag | u32
+pub type WatchFlags = WatchFlag | u32
 
-type WatchID = u32
+pub type WatchID = u32
 
 fn init() {
 	C.dmon_init()
