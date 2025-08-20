@@ -8,7 +8,7 @@ vvatch is cross-platform V module to monitor changes in directories. It utilizes
 
 <blockquote>
 <sub>
-vvatch is a rewrite that I'm using for a client project that makes opinionated changes. It takes a different approach on the internals to allow a clean working surface. It aims to leverage the C library, increase robustness, and allows to compile programs that use the module in strict mode and with the Clang compiler.
+vvatch is a rewrite that I'm using for a client project. By making opinionated changes and taking a different approach on the internals it allowed for a clean working surface. It aims to leverage the C library, increase robustness, and allows programs to be compiled with Clang or in strict mode.
 </sub>
 </blockquote>
 
